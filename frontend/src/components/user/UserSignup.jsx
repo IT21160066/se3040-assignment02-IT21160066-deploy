@@ -27,7 +27,7 @@ const UserSignup = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "https://galaxyguide-server.onrender.com/user/login",
+        "https://galaxyguide-server.onrender.com/user/register",
         userDetails
       );
       setUserDetails({
