@@ -5,19 +5,23 @@ import satelite from "../../assets/satelite2.png";
 const ExploreSpace = () => {
   return (
     <div className="bg-stone-900 min-h-screen flex flex-col p-4 items-center justify-center">
-      <div className="flex flex-row">
-        <h1 className="text-white font-mono text-3xl mb-8">
+      <div className="flex flex-col items-center">
+        <h1 className="text-white font-mono text-3xl m-1">
           Explore More About Space Here 🚀
         </h1>
-      </div>
-      <div className="absolute top-8 right-4">
-        <a
-          href="/weather"
-          className="bg-red-900 hover:bg-red-700 
-            text-white p-2 rounded-lg font-mono my-3"
-        >
-          Check Weather Updates Here
-        </a>
+        <div className="flex items-center mb-2">
+          <h1 className="text-white font-mono text-xl  mr-3">
+            Curious About the Weather
+          </h1>
+
+          <a
+            href="/weather"
+            className="bg-green-800 hover:bg-red-700 
+            text-white py-1 px-3 rounded-lg font-mono"
+          >
+            Click Here
+          </a>
+        </div>
       </div>
 
       <div className="flex justify-center gap-8">
