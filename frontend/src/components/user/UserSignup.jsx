@@ -26,7 +26,10 @@ const UserSignup = () => {
   const handleRegistration = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8000/user/register", userDetails);
+      await axios.post(
+        "https://galaxyguide-server.onrender.com/user/login",
+        userDetails
+      );
       setUserDetails({
         userName: "",
         email: "",
