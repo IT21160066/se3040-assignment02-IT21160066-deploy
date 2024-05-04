@@ -26,7 +26,7 @@ const UserLogin = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://galaxyguide-server.onrender.com/user/login",
+        "http://localhost:8000/user/login",
         userDetails
       );
       setUserDetails({
