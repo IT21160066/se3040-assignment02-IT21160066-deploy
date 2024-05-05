@@ -16,7 +16,7 @@ const ExploreSpace = () => {
 
           <a
             href="/weather"
-            className="bg-green-800 hover:bg-red-700 
+            className="bg-stone-700 hover:bg-red-600 
             text-white py-1 px-3 rounded-lg font-mono"
           >
             Click Here
