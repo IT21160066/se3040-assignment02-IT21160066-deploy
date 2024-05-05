@@ -58,9 +58,9 @@ const UserSignup = () => {
           <h2 className="text-white my-2 font-mono">Sign-up Here</h2>
 
           <input
-            className="py-2 my-2 w-full outline-none rounded-md font-mono"
+            className="px-3 py-2 my-2 w-full outline-none rounded-md font-mono"
             type="text"
-            placeholder=" Enter your name"
+            placeholder="Enter your name"
             name="userName"
             required
             value={userDetails.userName}
@@ -68,9 +68,9 @@ const UserSignup = () => {
           />
 
           <input
-            className="py-2 my-2 w-full outline-none rounded-md font-mono"
+            className="px-3 py-2 my-2 w-full outline-none rounded-md font-mono"
             type="email"
-            placeholder=" Enter your email"
+            placeholder="Enter your email"
             name="email"
             required
             value={userDetails.email}
@@ -78,9 +78,9 @@ const UserSignup = () => {
           />
 
           <input
-            className="py-2 my-2 w-full outline-none rounded-md font-mono"
+            className="px-3 py-2 my-2 w-full outline-none rounded-md font-mono"
             type="password"
-            placeholder=" Enter your password"
+            placeholder="Enter your password"
             name="password"
             required
             value={userDetails.password}

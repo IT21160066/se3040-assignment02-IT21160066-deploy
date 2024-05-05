@@ -62,18 +62,18 @@ const UserLogin = () => {
           <h2 className="text-white my-2 font-mono">Login</h2>
 
           <input
-            className="py-2 my-2 w-full outline-none rounded-md font-mono"
+            className="px-3 py-2 my-2 w-full outline-none rounded-md font-mono"
             type="text"
-            placeholder=" Enter your user name"
+            placeholder="Enter your user name"
             name="userName"
             value={userDetails.userName}
             onChange={handleInputChange}
           />
 
           <input
-            className="py-2 my-2 w-full outline-none rounded-md font-mono"
+            className="px-3 py-2 my-2 w-full outline-none rounded-md font-mono"
             type="password"
-            placeholder=" Enter your password"
+            placeholder="Enter your password"
             name="password"
             value={userDetails.password}
             onChange={handleInputChange}
